@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, footer {
+    background-color: rgb(255, 130, 130);
+    width: 100%;
+    padding: 20px 0;
+}
+
+header h1, footer p {
+    color: rgb(255, 255, 255);
+}
+
+header {
+    text-align: center;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+.sub-pages {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-page-article {
+    border: solid 2px rgb(255, 130, 130);
+    border-radius: 5px;
+    width: 285px;
+    min-width: 235px;
+    height: 235px;
+    min-height: 235px;
+    margin: 30px;
+    display: block;
+}
+
+.sub-page-article .about-page {
+    background-color: rgb(255, 130, 130);
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+.full-description {
+    display: none;
+}
