@@ -5,24 +5,47 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Welcome to my page!</title>
         <script src="./app.js" defer></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=IBM+Plex+Sans+Thai&family=Noto+Color+Emoji&display=swap" rel="stylesheet">
+        <link rel="Stylesheet" href="./styles.css">
         <link rel="stylesheet" href="./heart.css" media="screen and (min-width: 600px)">
     </head>
+    <div id="valentinesDay">
+        <span>💘</span>
+        <span>💖</span>
+        <span>💗</span>
+        <span>💖</span>
+        <span>💕</span>
+        <span>💖</span>
+        <span>💓</span>
+        <span>💖</span>
+    </div>
     <body>
         <header>
-            <h1>Copy of the original page</h1>
+            <h1>Valentine's Day Mouse Effect</h1>
         </header>
-        <div id="valentinesDay">
-            <span>💘</span>
-            <span>💖</span>
-            <span>💗</span>
-            <span>💖</span>
-            <span>💕</span>
-            <span>💖</span>
-            <span>💓</span>
-            <span>💖</span>
-        </div>
+        <main>
+            <section>
+                <div>
+                    <h3>
+                        How did I make it:
+                    </h3>
+                    <p>
+                        This project was easy to make, even easier of what I first expected it to be.
+                        <ul>
+                            <li>First I created a container, and gave it an ID I would need for later</li>
+                            <li>After that, I created &lt;span&gt; tags containing one heart emoji each.</li>
+                            <li>Then, I created a script that that makes the parent container (The one with the ID) follor the client postition, which is the mouse position</li>
+                            <li>Finally, I went to a new CSS file, and created keyframes with the animations of each of the hearts, as well as getting rid of all pointer events so your mouse is still able to click on other elements inside the page</li>
+                            <li>After some bugfixing (such as avoiding the hearts to wrap near the page borders or appearing behind other elements of the page) I was done</li>
+                        </ul>
+                    </p>
+                </div>
+            </section>
+        </main>
         <footer>
-            <h1>Thanks for viewing!</h1>
+            <h3>Thanks for viewing!</h3>
         </footer>
     </body>
 </html>

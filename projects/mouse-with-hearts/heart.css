@@ -1,32 +1,3 @@
-* {
-    margin: 0;
-    padding: 20px 0;
-    box-sizing: border-box;
-}
-
-header, nav, footer {
-    background-color: rgb(255, 100, 235);
-}
-
-h2, h3 {
-    color: rgb(255, 100, 235);
-}
-
-header, footer {
-    position: fixed;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    width: 100%;
-}
-
-header {
-    top: 0;
-}
-
-footer {
-    bottom: 0;
-}
-
 
 #valentinesDay {
     position:fixed;
@@ -36,6 +7,7 @@ footer {
 }
 
 #valentinesDay span {
+    font-family: "Noto Color Emoji";
     height: auto;
     position: absolute;
     bottom: 0;
