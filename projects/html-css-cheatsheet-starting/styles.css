@@ -1,0 +1,55 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: rgb(183, 186, 214);
+}
+
+header {
+    text-align: center;
+    color: rgb(180, 30, 30);
+    margin-bottom: 80px;
+}
+
+h2 {
+    color: rgb(228, 114, 105);
+}
+
+section {
+    height: fit-content;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+}
+
+#htmlLogo {
+    position: absolute;
+    top: 200px;
+}
+
+table {
+    margin: 0 auto;
+    margin-bottom: 30px;
+    background-color: royalblue;
+}
+
+table, th, tr, td {
+    border: solid thin black;
+}
+
+th {
+    background-color: dodgerblue;
+}
+
+td, .monospace {
+    background-color: lightseagreen;
+}
+
+.monospace {
+    font-family: monospace;
+}
+
